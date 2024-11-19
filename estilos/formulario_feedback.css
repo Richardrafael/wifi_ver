@@ -1,0 +1,47 @@
+form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+span {
+font-weight: 700;
+}
+.container_form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+ :hover .options{
+  background:red ;
+ }
+
+.container-feedback {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para realçar a opção selecionada */
+.options.selected {
+  border: 1px solid black;
+}
